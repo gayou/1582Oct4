@@ -37,13 +37,13 @@ public class Test {
 
 ### 実行
 ```
-$ $ java -version
+$ java -version
 java version "1.8.0_45"
 Java(TM) SE Runtime Environment (build 1.8.0_45-b14)
 Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)
 $ 
 $ javac Test.java
-$ $ java Test
+$ java Test
 Thu Oct 04 03:29:27 JST 1582
 Fri Oct 15 03:29:27 JST 1582
 ---------------
@@ -94,6 +94,7 @@ print(date + datetime.timedelta(days=1))
 ```
 $ python3 --version
 Python 3.7.5
+$
 $ python3 Test.py 
 1582-10-04
 1582-10-05
