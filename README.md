@@ -99,3 +99,37 @@ $ python3 Test.py
 1582-10-04
 1582-10-05
 ```
+
+
+## Go
+Javaみたいなことはやってない。
+
+### ソースコード
+```go
+package main
+
+import(
+	"fmt"
+	"time"
+)
+
+var example []string
+
+func main() {
+	t := time.Date(1582, 10, 4, 0, 0, 0, 0, time.Local)
+	fmt.Println(t)
+
+	t = t.AddDate(0, 0, 1)
+	fmt.Println(t)
+}
+```
+
+### 実行
+```
+$ go version
+go version go1.13 darwin/amd64
+$ 
+$ go run Test.go
+1582-10-04 00:00:00 +0900 JCST
+1582-10-05 00:00:00 +0900 JCST
+```
