@@ -10,7 +10,7 @@
 Javaは内部的にユリウス暦とグレゴリオ暦の切り替えを行っている。
 
 ### ソースコード
-```
+```java
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
@@ -56,7 +56,7 @@ Fri Oct 15 00:00:00 JST 1582
 Javaみたいなことはやってない。
 
 ### ソースコード
-```
+```php
 <?php
 
 //DateTime
@@ -82,7 +82,7 @@ $ php Test.php
 Javaみたいなことはやってない。
 
 ### ソースコード
-```
+```python
 import datetime
 
 date = datetime.date(1582, 10, 4)
