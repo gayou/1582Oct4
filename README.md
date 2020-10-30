@@ -113,8 +113,6 @@ import(
 	"time"
 )
 
-var example []string
-
 func main() {
 	t := time.Date(1582, 10, 4, 0, 0, 0, 0, time.Local)
 	fmt.Println(t)
